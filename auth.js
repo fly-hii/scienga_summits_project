@@ -30,9 +30,9 @@ if (loginForm) {
         console.log('Login attempt:', { email, password });
         
         // Show success message
-        alert('Login successful! Redirecting to dashboard...');
+        alert('Login successful! Redirecting...');
         
-        // Redirect to home page (or dashboard)
+        // Redirect to home page
         setTimeout(() => {
             window.location.href = 'index.html';
         }, 1000);

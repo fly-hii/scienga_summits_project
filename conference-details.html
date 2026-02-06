@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conference Details - SCIENGA SUMMITS">
+    <title>Conference Details - SCIENGA SUMMITS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-brand">SCIENGA SUMMITS</a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#conferences" class="nav-link">Conferences</a></li>
+                <li><a href="index.html#about" class="nav-link">About Us</a></li>
+                <li><a href="index.html#why-join" class="nav-link">Why Join</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                <li><a href="login.html" class="nav-link nav-link-btn">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Conference Hero -->
+    <section class="conference-hero" style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.9), rgba(139, 92, 246, 0.9)), url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1920') center/cover;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="conference-badge-large" id="confCategory">Conference</div>
+            <h1 class="hero-title" id="confTitle">Conference Title</h1>
+            <h2 class="hero-subtitle" id="confSubtitle">Conference Subtitle</h2>
+            <div class="conference-meta-large">
+                <span id="confDate">📅 Date</span>
+                <span id="confLocation">📍 Location</span>
+                <span id="confMode">🌐 Mode</span>
+            </div>
+            <div class="hero-buttons">
+                <a href="register.html" class="btn btn-primary">Register Now</a>
+                <a href="#details" class="btn btn-secondary">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conference Details -->
+    <section class="section" id="details">
+        <div class="container">
+            <div class="conference-detail-grid">
+                <div class="detail-main">
+                    <h2>About the Conference</h2>
+                    <p id="confDescription">Conference description will appear here.</p>
+
+                    <h3>Conference Objectives</h3>
+                    <ul id="confObjectives">
+                        <li>Promote research and innovation</li>
+                        <li>Facilitate networking among professionals</li>
+                        <li>Share cutting-edge knowledge</li>
+                        <li>Foster international collaboration</li>
+                    </ul>
+
+                    <h3>Key Topics</h3>
+                    <ul id="confTopics">
+                        <li>Research & Innovation</li>
+                        <li>Technology & Applications</li>
+                        <li>Industry Best Practices</li>
+                        <li>Future Trends</li>
+                    </ul>
+
+                    <h3>Who Should Attend</h3>
+                    <ul id="confAudience">
+                        <li>Researchers & Scientists</li>
+                        <li>Industry Professionals</li>
+                        <li>Academicians & Professors</li>
+                        <li>Students & Young Researchers</li>
+                        <li>Policymakers</li>
+                    </ul>
+
+                    <h3>Conference Format</h3>
+                    <ul>
+                        <li>Keynote Presentations by Distinguished Speakers</li>
+                        <li>Oral Presentations (20 min + 5 min Q&A)</li>
+                        <li>Poster Sessions</li>
+                        <li>Panel Discussions</li>
+                        <li>Workshops & Training Sessions</li>
+                        <li>Networking Opportunities</li>
+                        <li>Young Researcher Forum (15 min + 5 min Q&A)</li>
+                    </ul>
+
+                    <h3>Publication Opportunities</h3>
+                    <p>Selected papers will be considered for publication in indexed journals and conference proceedings.</p>
+                </div>
+
+                <div class="detail-sidebar">
+                    <div class="info-card">
+                        <h4>📅 Important Dates</h4>
+                        <ul>
+                            <li><strong>Abstract Deadline:</strong> <span id="deadlineAbstract">TBA</span></li>
+                            <li><strong>Notification:</strong> <span id="deadlineNotification">TBA</span></li>
+                            <li><strong>Early Registration:</strong> <span id="deadlineEarly">TBA</span></li>
+                            <li><strong>Conference:</strong> <span id="deadlineConf">TBA</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <h4>📍 Venue</h4>
+                        <p id="venueDetails"><strong>Venue details will be announced</strong></p>
+                    </div>
+
+                    <div class="info-card">
+                        <h4>💰 Registration Fees</h4>
+                        <p><strong>Early Bird:</strong></p>
+                        <ul>
+                            <li>Students: $299</li>
+                            <li>Academics: $499</li>
+                            <li>Professionals: $599</li>
+                            <li>Virtual: $199</li>
+                        </ul>
+                        <p><strong>Regular:</strong></p>
+                        <ul>
+                            <li>Students: $399</li>
+                            <li>Academics: $599</li>
+                            <li>Professionals: $699</li>
+                            <li>Virtual: $249</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <h4>📧 Contact</h4>
+                        <p>For more information:</p>
+                        <p>Email: <a href="mailto:info@sciengasummits.com">info@sciengasummits.com</a></p>
+                        <p>Phone: +1 (555) 123-4567</p>
+                    </div>
+
+                    <div class="info-card help-card">
+                        <h4>Ready to Join?</h4>
+                        <p>Register now and be part of this global event</p>
+                        <a href="register.html" class="btn btn-sm btn-outline">Register Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section section-alt">
+        <div class="container" style="text-align: center;">
+            <h2 class="section-title">Join Us at This Conference</h2>
+            <p style="max-width: 600px; margin: 0 auto 2rem; font-size: 1.1rem; color: var(--text-light);">
+                Be part of a global community of researchers, professionals, and innovators
+            </p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="register.html" class="btn btn-primary btn-lg">Register Now</a>
+                <a href="index.html#conferences" class="btn btn-secondary btn-lg">View All Conferences</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 SCIENGA SUMMITS. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="conference-details.js"></script>
+</body>
+</html>
