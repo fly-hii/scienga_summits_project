@@ -158,50 +158,6 @@ document.querySelectorAll('.btn').forEach(button => {
     });
 });
 
-// Parallax effect for hero section
-window.addEventListener('scroll', () => {
-    const hero = document.querySelector('.hero');
-    const scrolled = window.pageYOffset;
-    if (hero && scrolled < window.innerHeight) {
-        hero.style.transform = `translateY(${scrolled * 0.5}px)`;
-    }
-});
-
-// Stats counter animation
-const animateCounter = (element, target) => {
-    let current = 0;
-    const increment = target / 100;
-    const timer = setInterval(() => {
-        current += increment;
-        if (current >= target) {
-            element.textContent = target + '+';
-            clearInterval(timer);
-        } else {
-            element.textContent = Math.floor(current) + '+';
-        }
-    }, 20);
-};
-
-// Trigger counter animation when stats section is visible
-const statsObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            const statNumbers = entry.target.querySelectorAll('.stat-number');
-            statNumbers.forEach(stat => {
-                const text = stat.textContent;
-                const number = parseInt(text.replace('+', ''));
-                animateCounter(stat, number);
-            });
-            statsObserver.unobserve(entry.target);
-        }
-    });
-}, { threshold: 0.5 });
-
-const statsSection = document.querySelector('.stats-section');
-if (statsSection) {
-    statsObserver.observe(statsSection);
-}
-
 // Console message
 console.log('%cSCIENGA SUMMITS', 'color: #6366f1; font-size: 24px; font-weight: bold;');
 console.log('%cGlobal Conferences & Summits 2026', 'color: #8b5cf6; font-size: 14px;');
