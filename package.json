@@ -1,0 +1,19 @@
+{
+  "name": "scienga-summits",
+  "version": "1.0.0",
+  "description": "SCIENGA SUMMITS - Global Conferences & Summits Platform",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'Static website - open index.html in browser'"
+  },
+  "keywords": [
+    "conferences",
+    "summits",
+    "healthcare",
+    "energy",
+    "technology",
+    "agriculture"
+  ],
+  "author": "SCIENGA SUMMITS",
+  "license": "MIT"
+}

@@ -78,12 +78,18 @@ This guide will help you deploy your SCIENGA SUMMITS website to the internet for
 2. **Import Project**
    - Click "New Project"
    - Import from GitHub (or upload files)
+   - **IMPORTANT**: Make sure `vercel.json` and `package.json` are included
    - Click "Deploy"
 
 3. **Your Website is Live! 🎉**
    - URL: `https://scienga-summits.vercel.app`
    - Automatic HTTPS
    - Lightning fast
+
+**Troubleshooting 404 Error:**
+- Make sure `vercel.json` file is in your project root
+- Make sure `index.html` is in the root folder (not in a subfolder)
+- Redeploy after adding the configuration files
 
 ---
 
