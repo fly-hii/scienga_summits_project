@@ -1,0 +1,92 @@
+═══════════════════════════════════════════════════════════════
+  HOW TO GET YOUR WEBSITE URL - SCIENGA SUMMITS
+═══════════════════════════════════════════════════════════════
+
+🎯 EASIEST METHOD - NETLIFY (5 MINUTES)
+
+1. Go to: https://netlify.com
+2. Click "Sign up" (use email or Google)
+3. Click "Add new site" → "Deploy manually"
+4. Drag your entire project folder into the box
+5. Wait 30 seconds
+6. DONE! Your URL appears at the top
+
+   Example: https://scienga-summits.netlify.app
+
+7. To customize URL:
+   - Click "Site settings"
+   - Click "Change site name"
+   - Enter: scienga-summits
+   - Save
+
+═══════════════════════════════════════════════════════════════
+
+🎯 FREE FOREVER - GITHUB PAGES
+
+1. Go to: https://github.com
+2. Sign up (free)
+3. Click "+" → "New repository"
+4. Name it: scienga-summits
+5. Make it "Public"
+6. Click "Create repository"
+7. Click "uploading an existing file"
+8. Drag ALL your files (index.html, styles.css, etc.)
+9. Click "Commit changes"
+10. Go to Settings → Pages
+11. Select "main" branch → Save
+12. Wait 2-3 minutes
+13. Your URL appears!
+
+    Example: https://yourusername.github.io/scienga-summits
+
+═══════════════════════════════════════════════════════════════
+
+🎯 SUPER FAST - VERCEL
+
+1. Go to: https://vercel.com
+2. Sign up with GitHub
+3. Click "New Project"
+4. Import your files
+5. Click "Deploy"
+6. DONE!
+
+   Example: https://scienga-summits.vercel.app
+
+═══════════════════════════════════════════════════════════════
+
+📤 SHARING YOUR URL
+
+Once you have your URL, you can:
+
+✓ Email it to anyone
+✓ Post on social media
+✓ Add to business cards
+✓ Create QR code (use qr-code-generator.com)
+✓ Share on WhatsApp/Telegram
+
+═══════════════════════════════════════════════════════════════
+
+💡 TIPS
+
+• All methods are 100% FREE
+• Your site will be live 24/7
+• Works on all devices (phone, tablet, computer)
+• Secure HTTPS automatically
+• No coding knowledge needed
+
+═══════════════════════════════════════════════════════════════
+
+🆘 NEED HELP?
+
+If you get stuck:
+1. Read DEPLOYMENT.md (detailed guide)
+2. Google: "how to deploy website to [platform name]"
+3. YouTube: "deploy website to netlify" (lots of videos)
+
+═══════════════════════════════════════════════════════════════
+
+✅ RECOMMENDED: Start with Netlify (easiest!)
+
+Just drag and drop your folder - that's it!
+
+═══════════════════════════════════════════════════════════════

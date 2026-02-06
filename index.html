@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SCIENGA SUMMITS - Global Conferences & Summits across Healthcare, Energy, Technology, Agriculture & More">
+    <title>SCIENGA SUMMITS - International Conferences & Global Summits 2026</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">SCIENGA SUMMITS</div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#conferences" class="nav-link">Conferences</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#why-join" class="nav-link">Why Join</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="login.html" class="nav-link nav-link-btn">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-in">Global Conferences & Summits 2026</h1>
+            <h2 class="hero-subtitle animate-fade-in-delay-1">Connecting Researchers, Professionals & Innovators Worldwide</h2>
+            <p class="hero-description animate-fade-in-delay-2">Join leading international conferences across Healthcare, Energy, Technology, Agriculture, and more</p>
+            <div class="hero-buttons animate-fade-in-delay-3">
+                <a href="#conferences" class="btn btn-primary">Explore Conferences</a>
+                <a href="#contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Countries</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">20+</div>
+                    <div class="stat-label">Conference Domains</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5000+</div>
+                    <div class="stat-label">Participants</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Expert Speakers</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conferences Section -->
+    <section class="section" id="conferences">
+        <div class="container">
+            <h2 class="section-title">Our Conferences 2026</h2>
+            <p class="section-intro">Explore our diverse portfolio of international conferences and summits</p>
+            
+            <!-- Conference Categories -->
+            <div class="conference-filters">
+                <button class="filter-btn active" data-filter="all">All Conferences</button>
+                <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+                <button class="filter-btn" data-filter="energy">Energy</button>
+                <button class="filter-btn" data-filter="technology">Technology</button>
+                <button class="filter-btn" data-filter="agriculture">Agriculture</button>
+            </div>
+
+            <div class="conferences-grid">
+                <!-- Healthcare Conference -->
+                <div class="conference-card" data-category="healthcare">
+                    <div class="conference-image" style="background-image: url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800');">
+                        <div class="conference-badge">Hybrid Event</div>
+                    </div>
+                    <div class="conference-content">
+                        <div class="conference-category healthcare">Healthcare</div>
+                        <h3>Healthcare Insights 2026</h3>
+                        <p class="conference-subtitle">5th Global Summit on Healthcare & Patient Safety</p>
+                        <div class="conference-meta">
+                            <span>📅 Nov 9-11, 2026</span>
+                            <span>📍 Hong Kong</span>
+                        </div>
+                        <p class="conference-desc">Leading healthcare professionals, researchers, and policymakers discussing patient safety and quality care.</p>
+                        <a href="healthcare.html" class="btn btn-primary btn-sm">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Renewable Energy Conference -->
+                <div class="conference-card" data-category="energy">
+                    <div class="conference-image" style="background-image: url('https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800');">
+                        <div class="conference-badge">Virtual</div>
+                    </div>
+                    <div class="conference-content">
+                        <div class="conference-category energy">Energy</div>
+                        <h3>Renewable Energy 2026</h3>
+                        <p class="conference-subtitle">4th International Conference on Renewable & Non-Renewable Energy</p>
+                        <div class="conference-meta">
+                            <span>📅 Mar 9, 2026</span>
+                            <span>📍 Virtual Event</span>
+                        </div>
+                        <p class="conference-desc">Innovations in renewable energy, sustainable solutions, and global energy systems.</p>
+                        <a href="energy.html" class="btn btn-primary btn-sm">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Green Energy Conference -->
+                <div class="conference-card" data-category="energy">
+                    <div class="conference-image" style="background-image: url('https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800');">
+                        <div class="conference-badge">Hybrid Event</div>
+                    </div>
+                    <div class="conference-content">
+                        <div class="conference-category energy">Energy</div>
+                        <h3>Green Energy Summit 2026</h3>
+                        <p class="conference-subtitle">International Conference on Sustainable Energy Solutions</p>
+                        <div class="conference-meta">
+                            <span>📅 Jun 15-17, 2026</span>
+                            <span>📍 Amsterdam</span>
+                        </div>
+                        <p class="conference-desc">Exploring clean energy technologies, sustainability, and environmental impact.</p>
+                        <a href="green-energy.html" class="btn btn-primary btn-sm">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Food & Agriculture Summit -->
+                <div class="conference-card" data-category="agriculture">
+                    <div class="conference-image" style="background-image: url('https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800');">
+                        <div class="conference-badge">In-Person</div>
+                    </div>
+                    <div class="conference-content">
+                        <div class="conference-category agriculture">Agriculture</div>
+                        <h3>Global Food & Agri Summit 2026</h3>
+                        <p class="conference-subtitle">2nd Edition - Food Science & Agricultural Innovation</p>
+                        <div class="conference-meta">
+                            <span>📅 Jan 20-22, 2026</span>
+                            <span>📍 Amsterdam</span>
+                        </div>
+                        <p class="conference-desc">Food security, sustainable agriculture, nutrition, and agricultural technology.</p>
+                        <a href="food-agri.html" class="btn btn-primary btn-sm">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Semiconductors Conference -->
+                <div class="conference-card" data-category="technology">
+                    <div class="conference-image" style="background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?w=800');">
+                        <div class="conference-badge">Hybrid Event</div>
+                    </div>
+                    <div class="conference-content">
+                        <div class="conference-category technology">Technology</div>
+                        <h3>Semiconductors Summit 2026</h3>
+                        <p class="conference-subtitle">International Conference on Semiconductor Technology</p>
+                        <div class="conference-meta">
+                            <span>📅 Aug 10-12, 2026</span>
+                            <span>📍 Silicon Valley</span>
+                        </div>
+                        <p class="conference-desc">Chip design, manufacturing innovations, and next-generation semiconductor technologies.</p>
+                        <a href="semiconductors.html" class="btn btn-primary btn-sm">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Optics Conference -->
+                <div class="conference-card" data-category="technology">
+                    <div class="conference-image" style="background-image: url('https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800');">
+                        <div class="conference-badge">In-Person</div>
+                    </div>
+                    <div class="conference-content">
+                        <div class="conference-category technology">Technology</div>
+                        <h3>Optics World Summit 2026</h3>
+                        <p class="conference-subtitle">Global Conference on Optics & Photonics</p>
+                        <div class="conference-meta">
+                            <span>📅 May 5-7, 2026</span>
+                            <span>📍 Munich</span>
+                        </div>
+                        <p class="conference-desc">Photonics, laser technology, optical systems, and imaging innovations.</p>
+                        <a href="optics.html" class="btn btn-primary btn-sm">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- General Medicine Congress -->
+                <div class="conference-card" data-category="healthcare">
+                    <div class="conference-image" style="background-image: url('https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800');">
+                        <div class="conference-badge">Hybrid Event</div>
+                    </div>
+                    <div class="conference-content">
+                        <div class="conference-category healthcare">Healthcare</div>
+                        <h3>World General Medicine Congress 2026</h3>
+                        <p class="conference-subtitle">International Medical Research & Clinical Practice</p>
+                        <div class="conference-meta">
+                            <span>📅 Oct 15-17, 2026</span>
+                            <span>📍 Paris</span>
+                        </div>
+                        <p class="conference-desc">Clinical medicine, preventive care, regenerative medicine, and medical innovations.</p>
+                        <a href="medicine.html" class="btn btn-primary btn-sm">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Traditional Energy -->
+                <div class="conference-card" data-category="energy">
+                    <div class="conference-image" style="background-image: url('https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=800');">
+                        <div class="conference-badge">Virtual</div>
+                    </div>
+                    <div class="conference-content">
+                        <div class="conference-category energy">Energy</div>
+                        <h3>Traditional Energy Summit 2026</h3>
+                        <p class="conference-subtitle">Oil, Gas & Energy Transition Conference</p>
+                        <div class="conference-meta">
+                            <span>📅 Apr 12-14, 2026</span>
+                            <span>📍 Virtual Event</span>
+                        </div>
+                        <p class="conference-desc">Energy transition, fossil fuels, carbon capture, and sustainable practices.</p>
+                        <a href="traditional-energy.html" class="btn btn-primary btn-sm">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section section-alt" id="about">
+        <div class="container">
+            <h2 class="section-title">About SCIENGA SUMMITS</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who We Are</h3>
+                    <p>SCIENGA SUMMITS stands at the forefront of academic excellence, uniting scholars, researchers, and professionals worldwide. Our conferences transcend conventional boundaries, stimulating interdisciplinary dialogue and groundbreaking insights.</p>
+                    
+                    <h3>Our Mission</h3>
+                    <p>We ignite creativity, cultivate curiosity, and deepen understanding, shaping a more enlightened global community. Committed to nurturing emerging talent, we provide platforms for scholars to showcase their work, engage with industry leaders, and expand their networks.</p>
+                    
+                    <h3>What We Offer</h3>
+                    <ul>
+                        <li>International conferences across multiple domains</li>
+                        <li>Hybrid events (in-person and virtual attendance)</li>
+                        <li>Networking with global experts and industry leaders</li>
+                        <li>Publication opportunities in indexed journals</li>
+                        <li>Professional development and knowledge exchange</li>
+                        <li>Collaborative research opportunities</li>
+                    </ul>
+                </div>
+                <div class="about-visual">
+                    <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600" alt="Conference" class="about-img">
+                    <img src="https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=600" alt="Networking" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Join Section -->
+    <section class="section" id="why-join">
+        <div class="container">
+            <h2 class="section-title">Why Join Our Events</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🌍</div>
+                    <h3>Global Network</h3>
+                    <p>Connect with professionals from 50+ countries and build lasting international collaborations.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎓</div>
+                    <h3>Expert Knowledge</h3>
+                    <p>Learn from leading researchers, industry pioneers, and distinguished keynote speakers.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">📚</div>
+                    <h3>Publication Opportunities</h3>
+                    <p>Present your research and get published in reputable indexed journals and proceedings.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">💡</div>
+                    <h3>Innovation & Ideas</h3>
+                    <p>Discover cutting-edge research, emerging trends, and innovative solutions in your field.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🤝</div>
+                    <h3>Collaboration</h3>
+                    <p>Foster partnerships with academia, industry, and research institutions worldwide.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🏆</div>
+                    <h3>Career Growth</h3>
+                    <p>Enhance your professional profile and gain recognition in your research domain.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conference Opportunities -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Conference Opportunities</h2>
+            <div class="opportunities-grid">
+                <div class="opportunity-card">
+                    <h3>🎤 Keynote Sessions</h3>
+                    <p>Attend inspiring talks from world-renowned experts and thought leaders</p>
+                </div>
+                <div class="opportunity-card">
+                    <h3>📊 Oral Presentations</h3>
+                    <p>Present your research findings to an engaged international audience</p>
+                </div>
+                <div class="opportunity-card">
+                    <h3>📋 Poster Sessions</h3>
+                    <p>Showcase your work and engage in interactive discussions</p>
+                </div>
+                <div class="opportunity-card">
+                    <h3>🎯 Workshops</h3>
+                    <p>Participate in hands-on sessions and skill development programs</p>
+                </div>
+                <div class="opportunity-card">
+                    <h3>🌐 Virtual Attendance</h3>
+                    <p>Join from anywhere with our hybrid conference format</p>
+                </div>
+                <div class="opportunity-card">
+                    <h3>🏅 Awards & Recognition</h3>
+                    <p>Compete for best paper awards and young researcher recognition</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Have questions about our conferences? We're here to help!</p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <strong>Email</strong>
+                            <p>info@sciengasummits.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <strong>Phone</strong>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">🌐</div>
+                        <div>
+                            <strong>Website</strong>
+                            <p>www.sciengasummits.com</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Facebook</a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="text" placeholder="Subject">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>SCIENGA SUMMITS</h4>
+                    <p>Connecting researchers, professionals, and innovators worldwide through international conferences and summits.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#conferences">Conferences</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#why-join">Why Join</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Conference Domains</h4>
+                    <ul>
+                        <li><a href="#">Healthcare & Medicine</a></li>
+                        <li><a href="#">Energy & Sustainability</a></li>
+                        <li><a href="#">Technology & Innovation</a></li>
+                        <li><a href="#">Agriculture & Food Science</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SCIENGA SUMMITS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
